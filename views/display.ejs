@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display User Details</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        table, td, th {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+            margin: auto;
+            margin-top: 20px;
+        }
+        th{
+            background-color: #2b5d73;
+            color: white;
+        }
+        tr:nth-child(odd){
+            background-color: #dedede;
+        }
+        .nav{
+            width: 100%;
+            padding: 5px;
+            box-sizing: border-box;
+            background-color: #353535;
+        }
+        .nav a{
+            display: inline-block;
+            height: 40px;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-right: 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .active,.nav a:hover{
+            background-color: #4e4e4e;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="/">Signup</a>
+        <a href="/details" class="active">User details</a>
+    </div>
+    <div class="constainer">
+    <table>
+        <% var data=JSON.parse(details) %>
+        <% if(data!=null) { %>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>   
+            <th>Phone No</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        <% data.forEach(function(data){ %>
+            <tr>
+                <td><%= data.name %></td>
+                <td><%= data.email %></td>
+                <td><%= data.phoneNo %></td>
+                <td><%= data.age %></td>
+                <td><%= data.gender %></td>
+            </tr>
+            <% }) %>
+        </table>
+        <% } %>
+    </div>
+</body>
+</html>
