@@ -30,6 +30,6 @@ node app.js
 
 <hr>
 
-<img src="./screenshots/Screenshot1.png" alt="Loading...">
+<img src="./screenshots/Screenshot1.png" alt="Loading..." width="600" height="400">
 
-<img src="./screenshots/Screenshot2.png" alt="Loading...">
+<img src="./screenshots/Screenshot2.png" alt="Loading..." width="600" height="400">
