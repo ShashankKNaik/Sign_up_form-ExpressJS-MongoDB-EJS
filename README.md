@@ -27,3 +27,9 @@ step 5: Run the application.
 <pre>
 node app.js
 </pre>
+
+<hr>
+
+<img src="./screenshots/Screenshot1.png" alt="Loading...">
+
+<img src="./screenshots/Screenshot2.png" alt="Loading...">
