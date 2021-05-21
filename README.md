@@ -1,4 +1,4 @@
-# Sign_up_form-ExpressJS-MongoDB-EJS
+# Sign up form (ExpressJS-MongoDB-EJS)
 This application collects user data and stores it to MongoDB and also  retrieves data from the database and display it on the website.
 
 step 1: First create a directory for your new application and navigate into it.
