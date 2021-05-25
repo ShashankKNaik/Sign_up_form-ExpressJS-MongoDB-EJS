@@ -1,4 +1,4 @@
-# Sign up form (ExpressJS-MongoDB-EJS)
+# Signup form (ExpressJS-MongoDB-EJS)
 This application collects user data and stores it to MongoDB and also  retrieves data from the database and display it on the website.
 
 <h2>Dependencies</h2>
