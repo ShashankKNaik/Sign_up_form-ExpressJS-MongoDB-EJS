@@ -32,7 +32,7 @@ npm init
 step 3: Now install Express and Mongoose in the myapp directory and save it in the dependencies list of your package.json file.
 
 <pre>
-npm install express mongoose --save
+npm install express mongoose ejs --save
 </pre>
 
 step 4: Copy above code paste it in the myapp directory.
