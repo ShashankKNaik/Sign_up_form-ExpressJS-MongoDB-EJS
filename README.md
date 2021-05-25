@@ -1,6 +1,21 @@
 # Sign up form (ExpressJS-MongoDB-EJS)
 This application collects user data and stores it to MongoDB and also  retrieves data from the database and display it on the website.
 
+<h2>Dependencies</h2>
+<ul>
+    <li>NodeJS</li>
+    <ul type="circle">
+        <li>ExpressJS</li>
+        <li>Mongoose</li>
+        <li>EJS (Embedded JavaScript)</li>
+    </ul>
+    <li>MongoDB</li>
+</ul>
+<br>
+<hr>
+
+<h2>Steps</h2>
+
 step 1: First create a directory for your new application and navigate into it.
 
 <pre>
@@ -29,6 +44,8 @@ node app.js
 </pre>
 
 <hr>
+
+<h2>Result</h2>
 
 <img src="./screenshots/Screenshot1.png" alt="Loading..." width="600" height="300">
 
